@@ -1,0 +1,297 @@
+$maxTablet: 1110px
+$minTablet: 1024px
+$maxMobile: 900px
+
+@media screen and (max-width: 1220px)
+    .Crew__Part2 img
+        right: 60px  
+
+@media screen and (max-width: $maxTablet)
+    .Crew__Part2 img
+        position: absolute
+        right: 20px
+        
+    .Technology__Section
+        padding-left: 0
+        padding-right: 0
+        padding-top: 80px
+        flex-direction: column
+
+    .Technology__Section h2
+        margin-left: 11%
+        margin-right: 11%
+        margin-bottom: 40px
+        order: 1
+
+    .Technology__Part1
+        width: 100%
+        order: 3
+
+    .Technology__Resume
+        display: flex
+        align-items: center
+        flex-direction: column
+        padding: 40px 
+
+    .bullets-wraper
+        display: flex
+        flex-direction: row
+        margin-right: 0
+        padding-bottom: 0
+
+    .Technology__Part2
+        width: 100%
+        padding-left: 0
+        padding-right: 0
+        order: 2
+
+    .Technology__Part2 img 
+        width: 100%
+        height: 100%
+        max-width: none
+        max-height: none
+        min-height: auto
+        position: static
+        top: 0
+        right: 0
+
+@media screen and (max-width: $minTablet)
+
+    .Home__Section
+        padding-left: 0
+        padding-right: 0
+        padding-top: 140px
+        margin-bottom: 40px
+        display: flex
+        flex-direction: column
+        text-align: center
+
+    .Home__Part1
+        width: 100%
+
+    .Home__Part1 p
+        font-size: 15px
+        color: white
+        opacity: 0.7
+        width: auto
+        max-width: 400px
+        text-align: center
+        margin: 0 auto 80px auto
+
+    .Home__Part2
+        width: 100%
+
+    .Home__Part2 h2
+        width: 300px
+        height: 300px
+        border-radius: 150px
+        position: static
+        top: 0
+        right: 0
+        margin: 0 auto
+        line-height: 300px
+
+    .Destination__Section
+        display: flex
+        padding-left: 11%
+        padding-right: 11%
+        padding-top: 80px
+        flex-direction: column
+        text-align: center
+
+    .Destination__Part1
+        width: 100% 
+
+    .Destination__Part1 h2
+        text-align: left
+
+    .Destination__Part2
+        width: 100%
+        padding-left: 0
+        padding-top: 15px
+
+    .Destination__Menu
+        margin-bottom: 40px    
+
+    .slider > p
+        max-width: 600px
+        margin: 0 auto
+
+    .slider__Feature
+        margin-bottom: 30px
+
+    .Crew__Section
+        flex-direction: column
+
+    .Crew__Section h2
+        margin-bottom: 50px
+        order: 1
+
+    .Crew__Part1
+        width: 100%
+        text-align: center 
+        order: 2
+
+    .Crew__Part1 p
+        margin: 0 auto
+
+    .Crew__Bullet
+        margin-top: 50px
+
+    .Crew__Part2
+        width: 100%
+        order: 3
+        text-align: center
+
+    .Crew__Part2 img
+        margin-top: 50px
+        position: relative
+        right: 0
+        top: 5px 
+
+@media screen and (max-width: $maxMobile)
+
+    .Home__Section
+        padding-top: 100px
+
+    .Home__Part1 p
+        font-size: 17px
+
+    .Header__Line
+        display: none
+
+    nav.Menu__Desktop
+        display: none
+
+    nav.Menu__Mobile
+        width: 35px
+        height: 35px
+        background-size: 100% 100%
+        user-select: none
+        display: block
+        cursor: pointer
+        right: 3%
+        position: absolute
+        transition: 0.1s
+	
+    nav.Menu__Mobile ul
+        width: 80vw
+        height: calc(100vh - 108px)
+        padding: 40px 90px 40px 40px
+        right: 0
+        top: 65px
+        position: absolute
+        list-style: none
+        background-color: rgb(208, 214, 249)
+        border-top-left-radius: 25px
+        cursor: initial
+        z-index: 2
+
+    nav.Menu__Mobile ul li
+        margin-bottom: 40px
+        padding-bottom: 20px
+        border-bottom: 2px solid rgb(191, 199, 243)
+
+    nav.Menu__Mobile ul li a
+        text-decoration: none
+        text-transform: uppercase
+        color: white
+        font-size: 14px
+        font-weight: 500
+        transition: 0.3s
+        border-bottom: 2px solid transparent
+
+    nav.Menu__Mobile ul li a:hover
+        color: rgba(158, 172, 255,0.8)
+        
+    nav.Menu__Mobile li a span
+        font-weight: 700
+        font-size: 16px
+        padding-right: 5px
+
+    
+    .slider__Feature
+        text-align: center
+        padding-top: 20px
+        flex-direction: column
+
+    .slider__Feature__Part1
+        width: 100%
+        margin-bottom: 20px
+
+    .slider__Feature__Part2
+        width: 100%
+        padding-left: 0
+
+    .slider__Feature__Part1 span
+        font-size: 19px
+
+    .slider__Feature__Part1 p
+        font-size: 29px
+
+    .slider__Feature__Part2 span
+        font-size: 19px
+
+    .slider__Feature__Part2 p
+        font-size: 28px
+
+    .Crew__Section
+        padding-top: 50px
+        flex-direction: column
+
+    .Crew__Section h2
+        margin-bottom: 35px
+        order: 1
+
+    .Crew__Part1
+        width: 100%
+        text-align: center 
+        order: 3
+        display: flex
+        flex-direction: column
+
+    .Crew__Part1__Engineer
+        order: 2
+        font-size: 24px
+
+    .Crew__Part1 h1
+        order: 3
+        white-space: normal
+        font-size: 36px
+
+    .Crew__Part1 p
+        margin: 0 auto 50px auto
+        order: 4
+        max-width: none
+
+    .spanBullet-wraper
+        order: 1
+
+    .Crew__Bullet
+        margin-top: 40px
+        margin-bottom: 25px
+
+    .Crew__Part2
+        width: 100%
+        order: 2
+        text-align: center
+
+    .Crew__Part2 img
+        max-width: 320px
+        max-height: 320px
+        min-height: 320px
+        margin-top: 0
+        position: relative
+        right: 0
+        top: 5px 
+
+    .resume-wraper //Technology page
+        text-align: center
+
+    .resume-wraper h1 //Technology page
+        white-space: normal !important
+
+    .Technology__Part1 .resume-wraper p
+        max-width: none !important
+	      
+
