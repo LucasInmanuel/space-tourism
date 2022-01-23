@@ -36,6 +36,10 @@ function Header(){
         let linkCrew = document.querySelectorAll('.Menu__Desktop a')[2]
         let linkTechnology = document.querySelectorAll('.Menu__Desktop a')[3]
 
+         if(linkDestination.style.borderBottom === '2px solid transparent' &&  linkCrew.style.borderBottom === '2px solid transparent' && linkTechnology.style.borderBottom === '2px solid transparent'){
+            linkHome.style.borderBottom = '2px solid white'
+         }
+             
         linkHome.addEventListener('click',() => {
 
             linkDestination.style.borderBottom = '2px solid transparent'
