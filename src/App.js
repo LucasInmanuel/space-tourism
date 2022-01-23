@@ -1,7 +1,6 @@
 import React from 'react';
 import {BrowserRouter , Routes, Route} from 'react-router-dom';
 import './style/css/index.css';
-import './style/css/animation-routers.css'
 import Header from './components/Header.js'
 import Home from './pages/Home.js';
 import Destination from './pages/Destination.js';
