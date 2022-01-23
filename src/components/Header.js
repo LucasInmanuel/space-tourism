@@ -36,10 +36,16 @@ function Header(){
         let linkCrew = document.querySelectorAll('.Menu__Desktop a')[2]
         let linkTechnology = document.querySelectorAll('.Menu__Desktop a')[3]
 
-         if(linkDestination.style.borderBottom === '2px solid transparent' &&  linkCrew.style.borderBottom === '2px solid transparent' && linkTechnology.style.borderBottom === '2px solid transparent'){
+         if(window.location.pathname === '/destination'){
+            linkDestination.style.borderBottom = '2px solid white'
+         }else if(window.location.pathname === '/crew'){
+            linkCrew.style.borderBottom = '2px solid white'
+         }else if(window.location.pathname === '/technology'){
+            linkTechnology.style.borderBottom = '2px solid white'
+         }else{
             linkHome.style.borderBottom = '2px solid white'
          }
-             
+         
         linkHome.addEventListener('click',() => {
 
             linkDestination.style.borderBottom = '2px solid transparent'
