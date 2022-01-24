@@ -1,7 +1,7 @@
 
 <h1>Space Tourism</h1>
 
-<img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/lucasinmanuel/space-tourism/CONCLU%C3%8DDO?logo=STATUS">
+<img alt="GitHub Status" src="https://img.shields.io/badge/STATUS-CONCLU%C3%8DDO-green">
 
 <img src="https://user-images.githubusercontent.com/92607743/150724268-5640d449-6f6b-4560-870e-c92995af8823.png" />
 
