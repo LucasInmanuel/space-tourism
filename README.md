@@ -6,7 +6,7 @@
 <h2>Descrição do projeto</h2>
 <p>Solução para o desafio proposto pelo site Front-end Mentor. Nesse projeto tive minha primeira experiência com React JS, nele explorei bastante a biblioteca, tudo para conseguir concluir o desafio que impus mim mesmo. Space Tourism é um multi-page website completemente responsivo!</p>
 
-<img src="https://user-images.githubusercontent.com/92607743/150724268-5640d449-6f6b-4560-870e-c92995af8823.png" />
+<img src="./src/assets/banner-pages.gif" />
 
 <h2>Solução e deploy</h2>
 
