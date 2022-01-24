@@ -17,7 +17,7 @@
 
 <h2>Ferrementas utilizadas</h2>
 
-<p>Utilizei React Router e React Hooks para construir esse projeto. Com a ajuda do pré processador sass, organizei com mais facilidade o código css. O editor de código-fonte que usei foi o Visual Studio Code.</p>
+<p>Utilizei React Router e React Hooks para construir esse projeto. Com a ajuda do pré processador SASS/SCSS, organizei com mais facilidade o código CSS. O editor de código-fonte que usei foi o Visual Studio Code.</p>
 
 - [VS code](https://code.visualstudio.com/)
 - [Node.js](https://nodejs.org/en/)
