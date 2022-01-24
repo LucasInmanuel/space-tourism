@@ -9,22 +9,28 @@ function Home(){
     useLayoutEffect(() => {
 
         var mediaQuery = window.innerWidth
-        if (mediaQuery >= 1122){
+        if (mediaQuery >= 1024){
+            document.body.style.height = '100vh'
             document.body.style.backgroundImage = `url('${BackgroundHomeDesktop}')`
         }else if(mediaQuery >= 720){
+            document.body.style.height = '100%'
             document.body.style.backgroundImage = `url('${BackgroundHomeTablet}')`
         }else{
+            document.body.style.height = '100%'
             document.body.style.backgroundImage = `url('${BackgroundHomeMobile}')`
         }
 
         window.addEventListener('resize',function(){
 
             var mediaQuery = window.innerWidth
-            if (mediaQuery >= 1122){
+            if (mediaQuery >= 1024){
+                document.body.style.height = '100vh'
                 document.body.style.backgroundImage = `url('${BackgroundHomeDesktop}')`
             }else if(mediaQuery >= 720){
+                document.body.style.height = '100%'
                 document.body.style.backgroundImage = `url('${BackgroundHomeTablet}')`
             }else{
+                document.body.style.height = '100%'
                 document.body.style.backgroundImage = `url('${BackgroundHomeMobile}')`
             }
     

@@ -21,23 +21,29 @@ function Crew(){
     useLayoutEffect(() => {
         
         var mediaQuery = window.innerWidth
-        if (mediaQuery >= 1130){
+        if (mediaQuery >= 1024){
             document.body.style.backgroundImage = `url('${BackgroundCrewDesktop}')`
+            document.body.style.height = '100vh'
         }else if(mediaQuery >= 900){
             document.body.style.backgroundImage = `url('${BackgroundCrewTablet}')`
+            document.body.style.height = '100%'
         }else{
             document.body.style.backgroundImage = `url('${BackgroundCrewMobile}')`
+            document.body.style.height = '100%'
         }
 
         window.addEventListener('resize',function(){
 
             var mediaQuery = window.innerWidth
-            if (mediaQuery >= 1130){
+            if (mediaQuery >= 1024){
                 document.body.style.backgroundImage = `url('${BackgroundCrewDesktop}')`
+                document.body.style.height = '100vh'
             }else if(mediaQuery >= 900){
                 document.body.style.backgroundImage = `url('${BackgroundCrewTablet}')`
+                document.body.style.height = '100%'
             }else{
                 document.body.style.backgroundImage = `url('${BackgroundCrewMobile}')`
+                document.body.style.height = '100%'
             }
     
         })

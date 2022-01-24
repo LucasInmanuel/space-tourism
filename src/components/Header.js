@@ -31,55 +31,89 @@ function Header(){
 
     useEffect(() => {
 
-        let linkHome = document.querySelectorAll('.Menu__Desktop a')[0]
-        let linkDestination = document.querySelectorAll('.Menu__Desktop a')[1]
-        let linkCrew = document.querySelectorAll('.Menu__Desktop a')[2]
-        let linkTechnology = document.querySelectorAll('.Menu__Desktop a')[3]
+        let linkMenuDesktop = document.querySelectorAll('.Menu__Desktop li a')
+        let linkMenuMobile = document.querySelectorAll('.Menu__Mobile li a')
 
          if(window.location.pathname === '/destination'){
-            linkDestination.style.borderBottom = '2px solid white'
+            linkMenuDesktop[1].style.borderBottom = '2px solid white'
+            linkMenuMobile[1].style.color = 'rgb(158, 172, 255)'
          }else if(window.location.pathname === '/crew'){
-            linkCrew.style.borderBottom = '2px solid white'
+            linkMenuDesktop[2].style.borderBottom = '2px solid white'
+            linkMenuMobile[2].style.color = 'rgb(158, 172, 255)'
          }else if(window.location.pathname === '/technology'){
-            linkTechnology.style.borderBottom = '2px solid white'
+            linkMenuDesktop[3].style.borderBottom = '2px solid white'
+            linkMenuMobile[3].style.color = 'rgb(158, 172, 255)'
          }else{
-            linkHome.style.borderBottom = '2px solid white'
+            linkMenuDesktop[0].style.borderBottom = '2px solid white'
+            linkMenuMobile[0].style.color = 'rgb(158, 172, 255)'
          }
-         
-        linkHome.addEventListener('click',() => {
 
-            linkDestination.style.borderBottom = '2px solid transparent'
-            linkCrew.style.borderBottom = '2px solid transparent'
-            linkTechnology.style.borderBottom = '2px solid transparent'
-            linkHome.style.borderBottom = '2px solid white'
-
+        linkMenuDesktop[0].addEventListener('click',() => {
+            for(var i = 0;i<linkMenuDesktop.length;i++){  
+                linkMenuDesktop[i].style.borderBottom = '2px solid transparent'
+                linkMenuDesktop[0].style.borderBottom = '2px solid white'
+                linkMenuMobile[i].style.color = 'white'
+                linkMenuMobile[0].style.color = 'rgb(158, 172, 255)'
+            }
+        });
+        linkMenuDesktop[1].addEventListener('click',() => {
+            for(var i = 0;i<linkMenuDesktop.length;i++){ 
+                linkMenuDesktop[i].style.borderBottom = '2px solid transparent'
+                linkMenuDesktop[1].style.borderBottom = '2px solid white'
+                linkMenuMobile[i].style.color = 'white'
+                linkMenuMobile[1].style.color = 'rgb(158, 172, 255)'
+            }
+        });
+        linkMenuDesktop[2].addEventListener('click',() => {
+            for(var i = 0;i<linkMenuDesktop.length;i++){ 
+                linkMenuDesktop[i].style.borderBottom = '2px solid transparent'
+                linkMenuDesktop[2].style.borderBottom = '2px solid white'
+                linkMenuMobile[i].style.color = 'white'
+                linkMenuMobile[2].style.color = 'rgb(158, 172, 255)'
+            }
+        });
+        linkMenuDesktop[3].addEventListener('click',() => {
+            for(var i = 0;i<linkMenuDesktop.length;i++){
+                linkMenuDesktop[i].style.borderBottom = '2px solid transparent'
+                linkMenuDesktop[3].style.borderBottom = '2px solid white'
+                linkMenuMobile[i].style.color = 'white'
+                linkMenuMobile[3].style.color = 'rgb(158, 172, 255)'
+            }
         });
 
-        linkDestination.addEventListener('click',() => {
-
-            linkHome.style.borderBottom = '2px solid transparent'
-            linkCrew.style.borderBottom = '2px solid transparent'
-            linkTechnology.style.borderBottom = '2px solid transparent'
-            linkDestination.style.borderBottom = '2px solid white'
-
+        //MOBILE                ///////// 
+        
+        linkMenuMobile[0].addEventListener('click',() => {
+            for(var i = 0;i<linkMenuDesktop.length;i++){  
+                linkMenuDesktop[i].style.borderBottom = '2px solid transparent'
+                linkMenuDesktop[0].style.borderBottom = '2px solid white'
+                linkMenuMobile[i].style.color = 'white'
+                linkMenuMobile[0].style.color = 'rgb(158, 172, 255)'
+            }
         });
-
-        linkCrew.addEventListener('click',() => {
-
-            linkHome.style.borderBottom = '2px solid transparent'
-            linkDestination.style.borderBottom = '2px solid transparent'
-            linkTechnology.style.borderBottom = '2px solid transparent'
-            linkCrew.style.borderBottom = '2px solid white'
-
+        linkMenuMobile[1].addEventListener('click',() => {
+            for(var i = 0;i<linkMenuDesktop.length;i++){ 
+                linkMenuDesktop[i].style.borderBottom = '2px solid transparent'
+                linkMenuDesktop[1].style.borderBottom = '2px solid white'
+                linkMenuMobile[i].style.color = 'white'
+                linkMenuMobile[1].style.color = 'rgb(158, 172, 255)'
+            }
         });
-
-        linkTechnology.addEventListener('click',() => {
-
-            linkHome.style.borderBottom = '2px solid transparent'
-            linkDestination.style.borderBottom = '2px solid transparent'
-            linkCrew.style.borderBottom = '2px solid transparent'
-            linkTechnology.style.borderBottom = '2px solid white'
-
+        linkMenuMobile[2].addEventListener('click',() => {
+            for(var i = 0;i<linkMenuDesktop.length;i++){ 
+                linkMenuDesktop[i].style.borderBottom = '2px solid transparent'
+                linkMenuDesktop[2].style.borderBottom = '2px solid white'
+                linkMenuMobile[i].style.color = 'white'
+                linkMenuMobile[2].style.color = 'rgb(158, 172, 255)'
+            }
+        });
+        linkMenuMobile[3].addEventListener('click',() => {
+            for(var i = 0;i<linkMenuDesktop.length;i++){
+                linkMenuDesktop[i].style.borderBottom = '2px solid transparent'
+                linkMenuDesktop[3].style.borderBottom = '2px solid white'
+                linkMenuMobile[i].style.color = 'white'
+                linkMenuMobile[3].style.color = 'rgb(158, 172, 255)'
+            }
         });
         
     });

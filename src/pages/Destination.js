@@ -23,24 +23,30 @@ function Destination(){
     useLayoutEffect(() => {
 
         var mediaQuery = window.innerWidth
-        if (mediaQuery >= 1100){
+        if (mediaQuery >= 1024){
+            document.body.style.height = '100vh'
             document.body.style.backgroundImage = `url('${BackgroundDestinationDesktop}')`
         }else if(mediaQuery >= 900){
+            document.body.style.height = '100%'
             document.body.style.backgroundImage = `url('${BackgroundDestinationTablet}')`
         }else{
+            document.body.style.height = '100%'
             document.body.style.backgroundImage = `url('${BackgroundDestinationMobile}')`
         } 
 
-    }, [])
+    }, [imgPlanet])
  
     window.addEventListener('resize',function(){
 
         var mediaQuery = window.innerWidth
-        if (mediaQuery >= 1100){
+        if (mediaQuery >= 1024){
+            document.body.style.height = '100vh'
             document.body.style.backgroundImage = `url('${BackgroundDestinationDesktop}')`
         }else if(mediaQuery >= 900){
+            document.body.style.height = '100%'
             document.body.style.backgroundImage = `url('${BackgroundDestinationTablet}')`
         }else{
+            document.body.style.height = '100%'
             document.body.style.backgroundImage = `url('${BackgroundDestinationMobile}')`
         } 
 

@@ -22,14 +22,17 @@ function Technology(){
     useEffect(() => {
         
         var mediaQuery = window.innerWidth
-        if(mediaQuery >= 1026){
+        if(mediaQuery >= 1110){
             document.body.style.backgroundImage = `url('${BackgroundTechnologyDesktop}')`
+            document.body.style.height = '100vh'
         }else if(mediaQuery >= 900){
             setTechnologyImg(ImgLaunchLandscape)
             document.body.style.backgroundImage = `url('${BackgroundTechnologyTablet}')`
+            document.body.style.height = '100%'
         }else{
             setTechnologyImg(ImgLaunchLandscape)
             document.body.style.backgroundImage = `url('${BackgroundTechnologyMobile}')`
+            document.body.style.height = '100%'
         }
 
         window.addEventListener('resize',function(){
@@ -38,6 +41,7 @@ function Technology(){
             
             if(mediaQuery <= 900){ 
                 
+                document.body.style.height = '100%'
                 setClicked2Style('')
                 setClicked3Style('')
                 setClicked1Style('tecClicked')
@@ -45,7 +49,8 @@ function Technology(){
                 document.body.style.backgroundImage = `url('${BackgroundTechnologyMobile}')`
                 
             }else if(mediaQuery <= 1111){
-    
+
+                document.body.style.height = '100%'
                 setClicked2Style('')
                 setClicked3Style('')
                 setClicked1Style('tecClicked')
@@ -54,6 +59,7 @@ function Technology(){
                 
             }else{
     
+                document.body.style.height = '100vh'
                 setClicked2Style('')
                 setClicked3Style('')
                 setClicked1Style('tecClicked')
