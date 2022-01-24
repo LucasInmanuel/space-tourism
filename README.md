@@ -1,10 +1,29 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Space Tourism
 
-## Available Scripts
+Solution to the challenge proposed by the Front-end Mentor website.
 
-In the project directory, you can run:
+Solução para o desafio proposto pelo site Front-end Mentor.
+
+
+## Stack utilizada
+
+**Front-end:** React, React-Router-DOM, SASS/CSS
+
+
+
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+
+
+
+
+
+
+
+
 
 ### `npm start`
 
