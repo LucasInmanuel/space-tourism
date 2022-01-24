@@ -14,7 +14,9 @@ Solução para o desafio proposto pelo site Front-end Mentor.
 
 ## Screenshots
 
-![screenshot-website](https://user-images.githubusercontent.com/92607743/150724268-5640d449-6f6b-4560-870e-c92995af8823.png)
+<img src="https://user-images.githubusercontent.com/92607743/150724268-5640d449-6f6b-4560-870e-c92995af8823.png" />
+
+
 
 
 
