@@ -26,7 +26,6 @@ header {
   width: 100%;
   height: 80px;
   margin-top: 20px;
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -43,9 +42,9 @@ header a {
 
 .Header__Line {
   z-index: 10;
-  right: -15px;
+  right: -16px;
   position: relative;
-  width: 29.5%;
+  width: 28.5%;
   opacity: 0.2;
   background-color: #ccc;
   height: 2px;
@@ -54,7 +53,7 @@ header a {
 nav.Menu__Desktop {
   width: 62%;
   position: absolute;
-  right: -12px;
+  right: 0;
   z-index: 3;
 }
 
@@ -102,7 +101,9 @@ nav.Menu__Mobile {
 .Home__Section {
   padding-left: 11%;
   padding-right: 150px;
-  padding-top: 175px;
+  margin-top: 40px;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -146,7 +147,7 @@ nav.Menu__Mobile {
   border-radius: 125px;
   display: block;
   position: relative;
-  top: 15%;
+  top: 26px;
   right: -61%;
   text-align: center;
   background-color: white;
@@ -239,7 +240,7 @@ nav.Menu__Mobile {
   font-weight: 500;
   color: white;
   opacity: 0.7;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .Destination__Part1 span {
@@ -591,6 +592,7 @@ span#tecClicked {
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 40px;
+    margin-top: 90px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -599,6 +601,8 @@ span#tecClicked {
         -ms-flex-direction: column;
             flex-direction: column;
     text-align: center;
+    -webkit-transform: none;
+            transform: none;
   }
   .Home__Part1 {
     width: 100%;
@@ -700,9 +704,6 @@ span#tecClicked {
 }
 
 @media screen and (max-width: 900px) {
-  .Home__Section {
-    padding-top: 100px;
-  }
   .Home__Part1 p {
     font-size: 17px;
   }
