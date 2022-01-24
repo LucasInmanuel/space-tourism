@@ -25,6 +25,7 @@ body {
 header {
   width: 100%;
   height: 80px;
+  margin-top: 20px;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -101,7 +102,7 @@ nav.Menu__Mobile {
 .Home__Section {
   padding-left: 11%;
   padding-right: 150px;
-  padding-top: 170px;
+  padding-top: 175px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
