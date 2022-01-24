@@ -17,3 +17,6 @@
 - [React](https://pt-br.reactjs.org/)
 - [Sass](https://sass-lang.com/)
 
+<h2>Links</h2>
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucas-emanuel-santana-dos-santos-7431b722a)
