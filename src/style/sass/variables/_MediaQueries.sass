@@ -150,8 +150,12 @@ $maxMobile: 900px
         top: 5px 
 
 @media screen and (max-width: $maxMobile)
+    header
+        margin-top: 5px
+
     .Home__Part1 p
         font-size: 17px
+        padding: 0 3%
 
     .Header__Line
         display: none
@@ -172,7 +176,7 @@ $maxMobile: 900px
 	
     nav.Menu__Mobile ul
         width: 80vw
-        height: calc(100vh - 108px)
+        height: calc(100vh + 200px)
         padding: 40px 90px 40px 40px
         right: 0
         top: 65px
@@ -197,15 +201,14 @@ $maxMobile: 900px
         transition: 0.3s
         border-bottom: 2px solid transparent
 
-    nav.Menu__Mobile ul li a:hover
-        color: rgba(158, 172, 255,0.8)
-        
     nav.Menu__Mobile li a span
+        padding-right: 5px
         font-weight: 700
         font-size: 22px
-        padding-right: 5px
 
-    
+    .Destination__Part1 img
+        width: 300px
+
     .slider__Feature
         text-align: center
         padding-top: 20px
