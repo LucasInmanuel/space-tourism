@@ -84,10 +84,6 @@ nav.Menu__Desktop ul li a {
   border-bottom: 2px solid transparent;
 }
 
-nav.Menu__Desktop ul li a:hover {
-  border-bottom: 2px solid white;
-}
-
 nav.Menu__Desktop ul li a span {
   font-weight: 700;
   font-size: 16px;
