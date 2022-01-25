@@ -701,7 +701,7 @@ span#tecClicked {
 
 @media screen and (max-width: 900px) {
   header {
-    margin-top: 5px;
+    margin-top: 0;
   }
   .Home__Part1 p {
     font-size: 17px;
